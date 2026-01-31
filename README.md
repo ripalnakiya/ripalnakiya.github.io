@@ -1,1 +1,0 @@
-# ripalnakiya.github.io
