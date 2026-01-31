@@ -1,415 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ripal Nakiya</title>
 
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <title>Ripal Nakiya</title>
 
-    <!-- bootstrap CDN -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
 
-    <!-- Font awesome -->
-    <script
-      src="https://kit.fontawesome.com/a057cbda56.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+<body>
+  <nav class="navbar">
+    <img src="images/logo.png" alt="Logo">
+  </nav>
 
-  <body>
-    <div>
-      <!-- NAVBAR -->
-      <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#home">
-            <img
-              src="images/logo1.png"
-              alt="Logo"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#aboutme">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <main>
+    <div class="column">
+      <img id="main-img" src="images/home.png">
+    </div>
 
-      <!-- HOME -->
-      <div id="home">
-        <div class="col-6" id="home-text">
-          <h1>I'm <span>RIPAL NAKIYA</span></h1>
-          <p>
-            Passionate <span>Android developer</span> and AOSP enthusiast, with
-            a knack for competitive programming.
-          </p>
-          <a
-            href="https://drive.google.com/uc?export=download&id=1u434S72sx0LJbu14LfzoM71Oy1XE2Q2e"
-            download
-            class="btn btn-outline-dark btn-lg"
-            ><i class="fa-solid fa-download"></i> Resume</a
-          >
-        </div>
-        <div class="home-image col-6">
-          <img src="images/computer-student.jpg" alt="" />
-        </div>
-      </div>
-
-      <!-- About ME -->
-      <div id="aboutme" class="new-section">
-        <h1 class="heading">About Me</h1>
-
-        <!-- TIMELINE -->
-        <div id="education">
-          <h2 class="sub-heading">Education</h2>
-          <div class="education-cover">
-            <div class="education-circle one"></div>
-            <div class="education-circle two"></div>
-            <div class="education-circle three"></div>
-            <div id="timeline">
-              <ul>
-                <li>
-                  <h2>2024 <span>Parul University</span></h2>
-                  <p>
-                    Pursuing B.Tech in Computer Science and Engineering with 8.4
-                    CGPA
-                  </p>
-                </li>
-                <li>
-                  <h2>2020 <span>Sainik School Balachadi</span></h2>
-                  <p>Completed HSC with 92%</p>
-                </li>
-                <li>
-                  <h2>2018 <span>Sainik School Balachadi</span></h2>
-                  <p>Completed SSC with 87%</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Technology -->
-        <div id="skills">
-          <h2 class="sub-heading">My Skills</h2>
-          <div class="skills-cover row">
-            <div class="col-3">
-              <img
-                title="Android"
-                src="images/skills/android.png"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img title="java" src="images/skills/java.png" alt="" srcset="" />
-            </div>
-            <div class="col-3">
-              <img
-                title="MongoDB"
-                src="images/skills/mongodb.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img
-                title="ExpressJS"
-                src="images/skills/expressjs.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img
-                title="ReactJS"
-                src="images/skills/react.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img
-                title="NodeJS"
-                src="images/skills/nodejs.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img
-                title="JavaScript"
-                src="images/skills/javascript.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img
-                title="HTML5"
-                src="images/skills/html.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img title="CSS3" src="images/skills/css3.svg" alt="" srcset="" />
-            </div>
-            <div class="col-3">
-              <img
-                title="Bootstrap"
-                src="images/skills/bootstrap.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img title="C" src="images/skills/c.svg" alt="" srcset="" />
-            </div>
-            <div class="col-3">
-              <img title="C++" src="images/skills/cpp.svg" alt="" srcset="" />
-            </div>
-            <div class="col-3">
-              <img
-                title="Python"
-                src="images/skills/python.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img
-                title="MySQL"
-                src="images/skills/mysql.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img
-                title="OpenCV"
-                src="images/skills/opencv.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <div class="col-3">
-              <img
-                title="Anaconda"
-                src="images/skills/anaconda.svg"
-                alt=""
-                srcset=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- PROJECTS -->
-      <div id="projects" class="new-section">
-        <h1 class="heading">Projects</h1>
-        <div class="projects-cover">
-          <div class="project">
-            <div class="project-header">
-              <img src="images/folder.svg" alt="" />
-
-              <a href="#" class="btn btn-outline-dark">
-                <i class="fa-brands fa-github"></i> Github</a
-              >
-            </div>
-            <div class="project-name">
-              <h2>Notes App</h2>
-            </div>
-            <div class="project-skill">
-              <h3>Skills :</h3>
-              <p>MVVM</p>
-              <p>Room</p>
-              <p>RecyclerView</p>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <img src="images/folder.svg" alt="" />
-
-              <a href="#" class="btn btn-outline-dark">
-                <i class="fa-brands fa-github"></i> Github</a
-              >
-            </div>
-            <div class="project-name">
-              <h2>NEWS App</h2>
-            </div>
-            <div class="project-skill">
-              <h3>Skills :</h3>
-              <p>Retrofit</p>
-              <p>Picasso</p>
-              <p>REST API</p>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <img src="images/folder.svg" alt="" />
-              <a href="#" class="btn btn-outline-dark">
-                <i class="fa-brands fa-github"></i> Github</a
-              >
-            </div>
-            <div class="project-name">
-              <h2>Google Keep Clone</h2>
-            </div>
-            <div class="project-skill">
-              <h3>Skills :</h3>
-              <p>Mongodb</p>
-              <p>Express.js</p>
-              <p>React.js</p>
-              <p>Node.js</p>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <img src="images/folder.svg" alt="" />
-              <a href="#" class="btn btn-outline-dark">
-                <i class="fa-brands fa-github"></i> Github</a
-              >
-            </div>
-            <div class="project-name">
-              <h2>Secrets Web App</h2>
-            </div>
-            <div class="project-skill">
-              <h3>Skills :</h3>
-              <p>Authentication</p>
-              <p>Mongodb</p>
-              <p>Express.js</p>
-              <p>Node.js</p>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <img src="images/folder.svg" alt="" />
-
-              <a href="#" class="btn btn-outline-dark">
-                <i class="fa-brands fa-github"></i> Github</a
-              >
-            </div>
-            <div class="project-name">
-              <h2>Garbage Detection through CCTV</h2>
-            </div>
-            <div class="project-skill">
-              <h3>Skills :</h3>
-              <p>YOLOv7</p>
-              <p>Python</p>
-              <p>Object Detection</p>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <img src="images/folder.svg" alt="" />
-
-              <a href="#" class="btn btn-outline-dark">
-                <i class="fa-brands fa-github"></i> Github</a
-              >
-            </div>
-            <div class="project-name">
-              <h2>Created RESTful API</h2>
-            </div>
-            <div class="project-skill">
-              <h3>Skills :</h3>
-              <p>API</p>
-              <p>Express.js</p>
-              <p>Node.js</p>
-            </div>
-          </div>
-        </div>
+    <div class="column">
+      <h2>Notes</h2>
+      <div class="notes-buttons">
+        <a href="https://ripalnakiya.github.io/Cpp-Notes/" class="notes-btn"> C++ </a>
+        <a href="https://ripalnakiya.github.io/Java-Notes/" class="notes-btn"> Java </a>
+        <a href="https://ripalnakiya.github.io/Kotlin-Notes/" class="notes-btn"> Kotlin </a>
+        <a href="https://ripalnakiya.github.io/Android-Notes/" class="notes-btn"> Android </a>                        
       </div>
     </div>
 
-    <!-- CONTACT ME -->
-    <div id="contact" class="new-section">
-      <h1>Contact</h1>
-      <div class="contact-cover">
-        <div class="email">
-          <h2>
-            <i class="fa-solid fa-envelope fa-xl"></i>
-            Email me at
-            <a href="mailto:contact@ripalnakiya.me">contact@ripalnakiya.me</a>
-          </h2>
-        </div>
-
-        <h2 class="sub-heading">My Socials</h2>
-        <div class="socials">
-          <div class="social">
-            <h2>
-              <a
-                href="https://www.linkedin.com/in/ripalnakiya/"
-                class="btn btn-outline-dark"
-                ><i class="fa-brands fa-linkedin fa-xl"></i>LinkedIn</a
-              >
-            </h2>
-          </div>
-          <div class="social">
-            <h2>
-              <a
-                href="https://github.com/ripalnakiya"
-                class="btn btn-outline-dark"
-                ><i class="fa-brands fa-github fa-xl"></i>Github</a
-              >
-            </h2>
-          </div>
-          <div class="social">
-            <h2>
-              <a
-                href="https://twitter.com/RipalNakiya"
-                class="btn btn-outline-dark"
-                ><i class="fa-brands fa-x-twitter fa-xl"></i>Twitter</a
-              >
-            </h2>
-          </div>
-          <div class="social">
-            <h2>
-              <a
-                href="https://www.instagram.com/jets_5645/"
-                class="btn btn-outline-dark"
-                ><i class="fa-brands fa-instagram fa-xl"></i>Instagram</a
-              >
-            </h2>
-          </div>
-        </div>
+    <div class="column">
+      <h2>Socials</h2>
+      <div class="social-buttons">
+        <button class="social-btn" onclick=onCopyEmail(this)>Copy Email</button>
+        <a href="https://github.com/ripalnakiya" class="social-btn"><i class="fa-brands fa-github fa-xl"></i></a> 
+        <a href="https://www.linkedin.com/in/ripalnakiya" class="social-btn"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+        <a href="https://twitter.com/RipalNakiya" class="social-btn"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
+        <a href="https://leetcode.com/u/ripalnakiya/" class="social-btn"><i class="fa-solid fa-code"></i></a>
       </div>
     </div>
+  </main>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <img id="mario" src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif"
+    width="70" style="display: none; position:fixed; top:100px; left:100px;">  
+</body>
+
+<!-- Font awesome -->
+<script src="https://kit.fontawesome.com/a057cbda56.js" crossorigin="anonymous"></script>
+<script>
+  function onCopyEmail(btn) {
+    const originalColor = btn.style.backgroundColor;
+    const orignalShadow = btn.style.boxShadow;
+    const originalText = btn.innerText;
+    navigator.clipboard.writeText('ripalnakiya@gmail.com');
+    btn.style.backgroundColor = '#FF2DAA';
+    btn.style.boxShadow = '0 0 15px #FF6FD8, 0 0 30px #FF6FD8, 0 0 45px #FF6FD8';
+    btn.innerText = 'Copied to clipboard !';
+    setTimeout(() => { btn.innerText = originalText; btn.style.backgroundColor = originalColor; btn.style.boxShadow = orignalShadow; }, 2000);
+  }
+</script>
+<script src="animate_cursor.js"></script>
+<!-- <script src="animate_mario.js"></script> -->
+
 </html>
